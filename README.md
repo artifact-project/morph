@@ -21,7 +21,7 @@ const render = (name = '%username%') => {
 };
 
 render(); // [replace node]: "Loading..." -> <h1/>
-		  // [create & append]: "%username%" (into <h1/>)
+          // [create & append]: "%username%" (into <h1/>)
 
 render("I'm is morph!"); // [update nodeValue]: "%username%" -> "I'm is morph!"
 ```
