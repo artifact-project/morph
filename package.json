@@ -1,0 +1,11 @@
+{
+  "name": "@artifact-project/morph",
+  "version": "1.0.0",
+  "description": "Morph — it's a micro library for DOM patching.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RubaXa <ibn@rubaxa.org>",
+  "license": "MIT"
+}
