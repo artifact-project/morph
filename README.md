@@ -14,6 +14,7 @@ HTML: `<div id="root">Loading...</div>`
 
 ```ts
 import { morph } from '@artifact-project/morph';
+// OR import { morph } from '/node_modules/@artifact-project/morph.js';
 
 const root = document.getElementById('root');
 const render = (name = '%username%') => {
@@ -34,3 +35,9 @@ render("I'm is morph!"); // [update nodeValue]: "%username%" -> "I'm is morph!"
 
  - **root**: `HTMLElement`
  - **content**: `string | HTMLElement`
+
+---
+
+### Development
+
+ - `npm publish --access public`
