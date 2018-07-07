@@ -14,7 +14,7 @@ HTML: `<div id="root">Loading...</div>`
 
 ```ts
 import { morph } from '@artifact-project/morph';
-// OR import { morph } from '/node_modules/@artifact-project/morph.js';
+// OR import { morph } from '/node_modules/@artifact-project/morph/index.js';
 
 const root = document.getElementById('root');
 const render = (name = '%username%') => {
