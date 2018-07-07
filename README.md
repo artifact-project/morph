@@ -31,7 +31,8 @@ render("I'm is morph!"); // [update nodeValue]: "%username%" -> "I'm is morph!"
 
 ### API
 
-#### morph(root, content)
+#### morph(root, content): `boolean`
+Returns `true`, if a DOM will be changed.
 
  - **root**: `HTMLElement`
  - **content**: `string | HTMLElement`
