@@ -1,5 +1,5 @@
-morph
------
+🦠morph
+-------
 It's a micro library for DOM patching.
 
 ```sh
